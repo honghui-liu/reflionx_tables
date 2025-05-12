@@ -23,7 +23,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
 3. `reflionx.mod`
     - The input spectrum is a `cutoffpl` with the cutoff energy fixed at 300 keV.
     - The electron density is fixed at 10^15 cm^-3.
-    - Free parameters are the photon index, the iron abundance and the ionization parameter.
+    - Free parameters are the photon index, the iron abundance (in solar units) and the ionization parameter.
     - This model is identical to the one hosted on the Heasarc "Additional Models" website.
     - Please cite:
         - Ross, Fabian and Young, 1999, MNRAS, 306, 461. [link](https://ui.adsabs.harvard.edu/abs/1999MNRAS.306..461R/abstract)
@@ -40,7 +40,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
 5. `reflionx_hc.mod`
     - The input spectrum is a `cutoffpl` with a **variable cutoff energy**.
     - The electron density is fixed at 10^15 cm^-3.
-    - Free parameters are the photon index, the cutoff energy, the iron abundance and the ionization parameter.
+    - Free parameters are the photon index, the cutoff energy, the iron abundance and the ionization parameter. **Note that the iron abundance can go up to 30 times of the solar value.**
     - Please cite: (one of Michael's papers)
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
 
