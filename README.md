@@ -2,7 +2,25 @@
 
 Five tables are provided for the `reflionx` model. They can be downloaded from: https://github.com/honghui-liu/reflionx_tables/releases/tag/table
 
-1. `reflionx.mod`
+## Main models
+
+1. `reflionx_HD_nthcomp_v2_log.fits`
+    - The input spectrum is a `nthcomp`with the **photon index**, the blackbody **seed photon temperature** (kT_bb) and coronal temperature (kT_e) as free parameters.
+    - The **electron density and the iron abundance are free parameters**.
+    - Please cite:
+        - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
+        - Jiang, 2020, MNRAS, 498, 3888 [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract)
+
+2. `reflionx_bb.mod`
+    - The input spectrum is a single-temperature blackbody. 
+    - Free parameters are the blackbody temperature (kT), the iron abundance and the ionization parameter.
+    - Please cite
+        - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
+        - We need a paper here. (Jon Miller's?)
+
+## Previous models
+
+3. `reflionx.mod`
     - The input spectrum is a `cutoffpl` with the cutoff energy fixed at 300 keV.
     - The electron density is fixed at 10^15 cm^-3.
     - Free parameters are the photon index, the iron abundance and the ionization parameter.
@@ -11,7 +29,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
         - Ross, Fabian and Young, 1999, MNRAS, 306, 461. [link](https://ui.adsabs.harvard.edu/abs/1999MNRAS.306..461R/abstract)
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)   
 
-2. `reflionx_HD.mod`
+4. `reflionx_HD.mod`
     - The input spectrum is a `cutoffpl` with the cutoff energy fixed at 300 keV.
     - The **electron density is a free parameter**, while the iron abundance is fixed at solar value.
     - Free parameters are the photon index, the electron density and the ionization parameter.
@@ -19,26 +37,14 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
         - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
         - Tomsick, 2018, ApJ, 855, 12. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
 
-3. `reflionx_hc.mod`
+5. `reflionx_hc.mod`
     - The input spectrum is a `cutoffpl` with a **variable cutoff energy**.
     - The electron density is fixed at 10^15 cm^-3.
     - Free parameters are the photon index, the cutoff energy, the iron abundance and the ionization parameter.
     - Please cite: (one of Michael's papers)
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
 
-4. `reflionx_HD_nthcomp_v2_log.fits`
-    - The input spectrum is a `nthcomp`with the **photon index**, the blackbody **seed photon temperature** (kT_bb) and coronal temperature (kT_e) as free parameters.
-    - The **electron density and the iron abundance are free parameters**.
-    - Please cite:
-        - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
-        - Jiang, 2020, MNRAS, 498, 3888 [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract)
 
-5. `reflionx_bb.mod`
-    - The input spectrum is a single-temperature blackbody. 
-    - Free parameters are the blackbody temperature (kT), the iron abundance and the ionization parameter.
-    - Please cite
-        - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
-        - We need a paper here. (Jon Miller's?)
 
 The tables can be loaded into `XSPEC` with the `atable` function.
 
