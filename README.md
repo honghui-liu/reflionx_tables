@@ -16,7 +16,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - Free parameters are the blackbody temperature (kT), the iron abundance and the ionization parameter.
     - Please cite
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
-        - We need a paper here. (Jon Miller's?)
+        - (First application in) King, et al., 2016, ApJ, 819, 29. [link](https://ui.adsabs.harvard.edu/abs/2016ApJ...819L..29K/abstract)
 
 ## Previous models
 
@@ -35,7 +35,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - Free parameters are the photon index, the electron density and the ionization parameter.
     - Please cite:
         - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
-        - Tomsick, 2018, ApJ, 855, 12. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
+        - (First application in) Tomsick, 2018, ApJ, 855, 12. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
 
 5. `reflionx_hc.mod`
     - The input spectrum is a `cutoffpl` with a **variable cutoff energy**.
@@ -43,6 +43,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - Free parameters are the photon index, the cutoff energy, the iron abundance and the ionization parameter. **Note that the iron abundance can go up to 30 times of the solar value.**
     - Please cite: (one of Michael's papers)
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
+        - (First application in) Tomsick, et al., 2014, 780, 78. [link](https://ui.adsabs.harvard.edu/abs/2014ApJ...780...78T/abstract)
 
 
 
