@@ -9,7 +9,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - The **electron density and the iron abundance are free parameters**.
     - Please cite:
         - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
-        - Jiang, 2020, MNRAS, 498, 3888 [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract)
+        - (First application in) Jiang, 2020, MNRAS, 498, 3888 [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract)
 
 2. `reflionx_bb.mod`
     - The input spectrum is a single-temperature blackbody. 
