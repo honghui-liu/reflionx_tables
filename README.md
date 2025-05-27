@@ -14,6 +14,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
 2. `reflionx_bb.mod`
     - The input spectrum is a single-temperature blackbody. 
     - Free parameters are the blackbody temperature (kT), the iron abundance and the ionization parameter.
+    - Usually, the model is used to fit the reflection component in neutron star systems (e.g., in combination with the relativistic broadening kernel `relconv*atable{reflionx_bb}`). Occasionally, it is also applied to model the reflection component in the soft state of black hole systems to account for the effect of returning radiation—although this is, of course, a simplification.
     - Please cite
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
         - (First application in) King, et al., 2016, ApJ, 819, 29. [link](https://ui.adsabs.harvard.edu/abs/2016ApJ...819L..29K/abstract)
