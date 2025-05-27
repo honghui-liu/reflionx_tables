@@ -17,6 +17,9 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - Please cite
         - Ross & Fabian, 2005, MNRAS, 358, 211. [link](https://ui.adsabs.harvard.edu/abs/2005MNRAS.358..211R/abstract)
         - (First application in) King, et al., 2016, ApJ, 819, 29. [link](https://ui.adsabs.harvard.edu/abs/2016ApJ...819L..29K/abstract)
+    - **Note:** There is similar version of model calculated by Dr. Ballantyne (BBrefl, [link](https://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/models/bbrefl.html)), which is also based on the `reflionx` code. The differences between `reflionx_bb` and `BBrefl` are explained in Garcia et al. 2022, ApJ, 926, 13. The main differences are:
+        - `BBrefl` assumes local thermodynamical equilibrium (LTE) throughout the slab while `reflionx_bb` does not.
+        - `reflionx_bb` has a broader range of parameters (e.g., density and ionization) and considers more elements and charge states.
 
 ## Previous models
 
