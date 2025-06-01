@@ -53,7 +53,41 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
 
 The tables can be loaded into `XSPEC` with the `atable` function.
 
-Examples of using the grids:
-- Jiang et al. 2019, MNRAS, 484, 1972. [link](https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.1972J/abstract)
-- Jiang et al. 2019, MNRAS, 489, 3436. [link](https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3436J/abstract)
-- Liu et al. 2023, ApJ, 951, 145. [link](https://ui.adsabs.harvard.edu/abs/2023ApJ...951..145L/abstract)
+## Examples of using the grids:
+
+### XRBs
+
+**Black hole systems:**
+
+- Cygnus X-1
+    - Tomsick et al. 2018, ApJ, 855, 3. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
+- GX 339-4
+    - Jiang et al. 2019, MNRAS, 484, 1972. [link](https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.1972J/abstract)
+    - Liu et al. 2022, MNRAS, 513, 4308. [link](https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.4308L/abstract)
+- GRS 1716-249
+    - Jiang et al. 2020, MNRAS, 492, 1947. [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1947J/abstract)
+- EXO 1846-031
+    - Draghis et al. 2020, ApJ, 900, 78. [link](https://ui.adsabs.harvard.edu/abs/2020ApJ...900...78D/abstract)
+- 4U 1630-47
+    - Connors et al. 2021, ApJ, 909, 146. [link](https://ui.adsabs.harvard.edu/abs/2021ApJ...909..146C/abstract)
+- MAXI J1348-630
+    - Chakraborty et al. 2021, MNRAS, 508, 475. [link](https://ui.adsabs.harvard.edu/abs/2021MNRAS.508..475C/abstract)
+- MAXI J1813-095
+    - Jiang et al. 2022, MNRAS, 514, 1952. [link](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1952J/abstract)
+- MAXI J1535–571, GRS 1739–278, GS 1354–64, IGR J17091–3624, H 1743–322, V404 Cyg
+    - Liu et al. 2023, ApJ, 951, 145. [link](https://ui.adsabs.harvard.edu/abs/2023ApJ...951..145L/abstract)
+ 
+**Neutron star systems:**
+- 4U 1728-34
+    - Wang et al. 2019, MNRAS, 484, 3004. [link](https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.3004W/abstract)
+- Cygnus X-2
+    - Mondal et al. 2018, MNRAS, 474, 2064. [link](https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.2064M/abstract)
+    - Ludlam et al. 2022, ApJ, 927, 112. [link](https://ui.adsabs.harvard.edu/abs/2022ApJ...927..112L/abstract) 
+
+## AGNs
+
+- IRAS 13224−3809
+    - Jiang et al. 2022, MNRAS, 514, 1107. [link](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1107J/abstract)
+- Ultra-Soft Narrow-Line Seyfert 1s
+    - Jiang et al. 2020, MNRAS, 498, 3888. [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract) 
+  
