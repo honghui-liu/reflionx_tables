@@ -84,7 +84,7 @@ The tables can be loaded into `XSPEC` with the `atable` function.
     - Mondal et al. 2018, MNRAS, 474, 2064. [link](https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.2064M/abstract)
     - Ludlam et al. 2022, ApJ, 927, 112. [link](https://ui.adsabs.harvard.edu/abs/2022ApJ...927..112L/abstract) 
 
-## AGNs
+### AGNs
 
 - IRAS 13224−3809
     - Jiang et al. 2022, MNRAS, 514, 1107. [link](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1107J/abstract)
