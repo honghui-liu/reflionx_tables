@@ -39,7 +39,7 @@ Five tables are provided for the `reflionx` model. They can be downloaded from: 
     - Free parameters are the photon index, the electron density and the ionization parameter.
     - Please cite:
         - Ross & Fabian, 2007, MNRAS, 381, 1697 [link](https://ui.adsabs.harvard.edu/abs/2007MNRAS.381.1697R/abstract)
-        - (First application in) Tomsick, 2018, ApJ, 855, 12. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
+        - (First application in) Tomsick, 2018, ApJ, 855, 3. [link](https://ui.adsabs.harvard.edu/abs/2018ApJ...855....3T/abstract)
 
 5. `reflionx_hc.mod`
     - The input spectrum is a `cutoffpl` with a **variable cutoff energy**.
