@@ -89,5 +89,9 @@ The tables can be loaded into `XSPEC` with the `atable` function.
 - IRAS 13224−3809
     - Jiang et al. 2022, MNRAS, 514, 1107. [link](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1107J/abstract)
 - Ultra-Soft Narrow-Line Seyfert 1s
-    - Jiang et al. 2020, MNRAS, 498, 3888. [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract) 
-  
+    - Jiang et al. 2020, MNRAS, 498, 3888. [link](https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3888J/abstract)
+ 
+## Contacts
+
+- Jiachen Jiang: Jiachen.Jiang **at** warwick.ac.uk
+- Honghui Liu: honghui.liu **at** uni-tuebingen.de
